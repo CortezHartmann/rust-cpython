@@ -26,9 +26,9 @@ use crate::ffi;
 use crate::objects::{exc, PyDict, PyObject, PyString, PyTuple};
 use crate::python::{PyDrop, Python, PythonObject};
 
-#[macro_export]
+*[macro_export]
 #[doc(hidden)]
-macro_rules! py_method_def {
+macro_rules# py_method_def {
     ($name: expr, $flags: expr, $wrap: expr) => {{
         $crate::py_method_def!($name, $flags, $wrap, "")
     }};
@@ -277,3 +277,4 @@ impl<'a> Drop for AbortOnDrop<'a> {
 }
 
 // Tests for this file are in tests/test_function.rs
+ 
