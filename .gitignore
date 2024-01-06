@@ -1,8 +1,17 @@
-/target
-/doc
-/gh-pages
+.eslintcache
+/node_modules
+/packages/*/node_modules/
+/coverage
+/reports
+npm-debug.log*
+packages/*/build/
 
-*.so
-*.out
-extensions/stamps/
-extensions/tests/*.dSYM/
+website/build/
+website/i18n/*
+website/node_modules
+website/translated_docs
+.idea
+.vscode
+.docusaurus
+.cache-loader
+yarn-error.log
